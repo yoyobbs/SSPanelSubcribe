@@ -15,3 +15,6 @@
 ## 其他
 
 项目测试阶段，issue 已开放
+
+## 安装方法
+git clone -b Swoole https://github.com/yoyobbs/SSPanelSubcribe.git tmp && mv tmp/.git . && rm -rf tmp && git reset --hard
