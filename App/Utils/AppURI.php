@@ -224,7 +224,8 @@ class AppURI
                 if (!in_array($item['net'], ['ws', 'tcp'])) {
                     break;
                 }
-                $return = ('vmess=' . $item['add'] . ':' . $item['port'] . ', method=chacha20-poly1305' . ', password=' . $item['id']);
+                //$return = ('vmess=' . $item['add'] . ':' . $item['port'] . ', method=chacha20-poly1305' . ', password=' . $item['id']);
+                $return = ('vmess=' . $item['add'] . ':' . $item['port'] . ', method=auto' . ', password=' . $item['id']);
                 switch ($item['net']) {
                     case 'ws':
                         $return .= ($item['tls'] == 'tls' ? ', obfs=wss' : ', obfs=ws');
