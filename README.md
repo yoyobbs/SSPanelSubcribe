@@ -67,7 +67,9 @@ php easyswoole start d  #守护模式 ，按我的修改，直接使用这个命
   task          easyswoole task进程状态
   crontab       easyswoole crontab管理
 ```
-### 4、最后
+### 4、nginx反向代理
 现在应该可以通过你的ip ：9501 进行访问了。然后再通过nginx反代到你的域名就可以开启https和隐藏端口了。！
-   
-   
+
+里面宝塔的nginx进行反代（先用准备好的域名创建一个站点），进入站点配置，如图：
+
+反代完成以后就可以通过域名来访问了。
