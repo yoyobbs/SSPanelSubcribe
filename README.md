@@ -31,3 +31,21 @@ cp config.php dev.php  #把config.php改为dev.php 测试环境的意思，也�
 ```shell
 vi dev.php #编辑文件
 ```
+#### 修改如下内容
+```shell
+    'database' => [
+        'driver'    => 'mysql',
+        'host'      => '127.0.0.1', #数据库地址
+        'port'      => 3306, #数据库端口
+        'database'  => 'ceshi', #数据库名
+        'username'  => 'ceshi123', #数据库用户名
+        'password'  => 'ceshi123', #数据库密码
+        'charset'   => 'utf8',
+        'collation' => 'utf8_general_ci',
+        'prefix'    => ''
+    ],
+```
+   
+   
+   
+   
