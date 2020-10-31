@@ -12,10 +12,6 @@
 
 [请查看 EasySwoole 服务管理进行使用](https://www.easyswoole.com/Cn/QuickStart/server.html)
 
-## 其他
-
-项目测试阶段，issue 已开放
-
 ## 安装方法
 git clone -b Swoole https://github.com/yoyobbs/SSPanelSubcribe.git tmp && mv tmp/.git . && rm -rf tmp && git reset --hard
 
@@ -71,5 +67,6 @@ php easyswoole start d  #守护模式 ，按我的修改，直接使用这个命
 现在应该可以通过你的ip ：9501 进行访问了。然后再通过nginx反代到你的域名就可以开启https和隐藏端口了。！
 
 里面宝塔的nginx进行反代（先用准备好的域名创建一个站点），进入站点配置，如图：
+![alt 宝塔反代](https://github.com/yoyobbs/SSPanelSubcribe/blob/Swoole/%E8%AE%A2%E9%98%85api.png)
 
 反代完成以后就可以通过域名来访问了。
