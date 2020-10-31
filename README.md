@@ -20,7 +20,7 @@
 git clone -b Swoole https://github.com/yoyobbs/SSPanelSubcribe.git tmp && mv tmp/.git . && rm -rf tmp && git reset --hard
 
 ## 食用教程
-'''
+'''code
 cd /www/wwwroot/sub/
 wget https://getcomposer.org/installer -O composer.phar && php composer.phar && php composer.phar install    #装依赖
 cp appprofile.example.php appprofile.php  #把appprofile.example.php改为appprofile.php
