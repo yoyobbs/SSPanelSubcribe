@@ -19,10 +19,10 @@
 ## 安装方法
 git clone -b Swoole https://github.com/yoyobbs/SSPanelSubcribe.git tmp && mv tmp/.git . && rm -rf tmp && git reset --hard
 
-##食用教程
-<p>
+## 食用教程
+{{
 cd /www/wwwroot/sub/
 wget https://getcomposer.org/installer -O composer.phar && php composer.phar && php composer.phar install    #装依赖
 cp appprofile.example.php appprofile.php  #把appprofile.example.php改为appprofile.php
 cp config.php dev.php  #把config.php改为dev.php 测试环境的意思，也可以改为produce.php 生产环境
-</p>
+}}
