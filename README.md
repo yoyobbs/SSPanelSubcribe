@@ -45,7 +45,29 @@ vi dev.php #编辑文件
         'prefix'    => ''
     ],
 ```
-   
-   
+### 3、修改完文件后，启动服务
+```shell
+php easyswoole start #开发模式
+php easyswoole start d  #守护模式 ，按我的修改，直接使用这个命令就可以了。
+-------
+使用:
+  easyswoole [操作] [选项]
+
+操作:
+  install       安装easySwoole
+  start         启动easySwoole
+  stop          停止easySwoole(守护模式下使用)
+  reload        热重启easySwoole(守护模式下使用)
+  restart       重启easySwoole(守护模式下使用)
+  help          查看命令的帮助信息
+  phpunit       启动协程单元测试
+  config        easyswoole配置管理
+  process       easyswoole 自定义进程/task进程管理
+  status        easyswole 服务运行状态
+  task          easyswoole task进程状态
+  crontab       easyswoole crontab管理
+```
+### 4、最后
+现在应该可以通过你的ip ：9501 进行访问了。然后再通过nginx反代到你的域名就可以开启https和隐藏端口了。！
    
    
